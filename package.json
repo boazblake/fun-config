@@ -4,9 +4,8 @@
   "description": "funky helpers",
   "main": "lib/src/index",
   "scripts": {
-    "compile": "babel --source-maps src/*.* --out-dir lib/ ",
-    "minify": "uglifyjs lib/kalman.js --compress --preamble '//kalmanjs, LGPL-3.0, https://github.com/wouterbulten/kalmanjs' --source-map lib/kalman.min.js.map --in-source-map lib/kalman.js.map --mangle -o lib/kalman.min.js",
-    "prepublish": "npm run compile && npm run minify"
+    "compile": "babel --source-maps -d lib/ src/*.*",
+    "prepublish": "npm run compile "
   },
   "repository": {
     "type": "git",
