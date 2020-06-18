@@ -19,4 +19,4 @@ const configure = () => {
   Validation.configure()
 }
 
-export const Funky = { configure }
+export const FunConfig = { configure }

@@ -1,1 +1,1 @@
-# funky
+# Fun Configs
