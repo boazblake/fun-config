@@ -4,7 +4,8 @@
   "description": "funconfig helpers",
   "main": "lib/src/index",
   "scripts": {
-    "build": "babel --source-maps -d lib/ src/*.*"
+    "compile": "babel --source-maps -d lib/ src/*.*",
+    "prepare": "npm run compile "
   },
   "repository": {
     "type": "git",
