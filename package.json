@@ -19,8 +19,12 @@
     "url": "https://github.com/boazblake/funconfig/issues"
   },
   "homepage": "https://github.com/boazblake/funconfig#readme",
-  "babel-cli": "^6.26.0",
-  "babel-preset-es2015": "^6.24.1",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
   "dependencies": {
     "daggy": "^1.4.0",
     "data.either": "^1.5.2",
