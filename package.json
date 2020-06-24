@@ -1,14 +1,17 @@
 {
-  "name": "funconfig",
+  "name": "@boazblake/fun-config",
   "version": "1.0.0",
-  "description": "funconfig helpers",
+  "description": "fun config helpers",
   "main": "lib/src/index",
   "scripts": {
     "build": "babel --source-maps -d lib/ src/*.*"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boazblake/funconfig.git"
+    "url": "git+https://github.com/boazblake/fun-config.git"
   },
   "keywords": [
     "funconfig"
@@ -16,9 +19,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/boazblake/funconfig/issues"
+    "url": "https://github.com/boazblake/fun-config/issues"
   },
-  "homepage": "https://github.com/boazblake/funconfig#readme",
+  "homepage": "https://github.com/boazblake/fun-config#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.3",
     "@babel/core": "^7.10.3",
