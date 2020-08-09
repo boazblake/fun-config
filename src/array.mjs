@@ -47,6 +47,12 @@ const configure = (_) => {
 
   Object.defineProperty(Array.prototype, "any", value(_any))
 
+  const _insertAt = function (idx, x) {
+    return this.splice(idx, 0, item)
+  }
+
+  Object.defineProperty(Array.prototype, "insertAt", value(_insertAt))
+
   const _last = function () {
     return this[this.length - 1]
   }
