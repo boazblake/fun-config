@@ -1,6 +1,6 @@
 {
   "name": "@boazblake/fun-config",
-  "version": "1.0.1a",
+  "version": "1.0.2",
   "description": "fun config helpers",
   "main": "lib/src/index",
   "scripts": {
